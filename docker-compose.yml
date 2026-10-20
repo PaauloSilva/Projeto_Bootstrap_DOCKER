@@ -17,10 +17,10 @@ services:
     container_name: mysql_db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: Sum4_M3=Go5
+      MYSQL_ROOT_PASSWORD: SENHA
       MYSQL_DATABASE: projeto_bootstrap
       MYSQL_USER: meu_projeto
-      MYSQL_PASSWORD: Victor9826@
+      MYSQL_PASSWORD: SENHA
     ports:
       - "3306:3306"
     volumes:
@@ -35,7 +35,7 @@ services:
       - "8081:80"
     environment:
       PMA_HOST: db
-      MYSQL_ROOT_PASSWORD: Sum4_M3=Go5
+      MYSQL_ROOT_PASSWORD: SENHA
     depends_on:
       - db
 
