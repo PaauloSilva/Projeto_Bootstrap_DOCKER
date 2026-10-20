@@ -1,0 +1,8 @@
+# Ignorar dados do banco de dados local do Docker
+/data/
+db_data/
+
+# Ignorar arquivos do editor ou sistema operacional
+.DS_Store
+Thumbs.db
+.vscode/
