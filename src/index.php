@@ -23,7 +23,7 @@
             <hr class="my-4">
             <?php
                 // Teste rápida de conexão com o MySQL
-                $conn = new mysqli("db", "meu_projeto", "Victor9826@", "projeto_bootstrap");
+                $conn = new mysqli("db", "USER", "SENHA", "DB_NAME");
                 if ($conn->connect_error) {
                     echo '<div class="alert alert-danger">Erro ao conectar com o MySQL: ' . $conn->connect_error . '</div>';
                 } else {
